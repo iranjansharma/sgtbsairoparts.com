@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "Aircraft Parts Supply | SGTBS",
     locale: "en_US",
-    url: "https://sgtbsourcing.com/contact",
+    url: "https://sgtbsairoparts.com/contact",
     title: "Contact SGTBS Aviation – Aircraft Parts & Logistics Support India",
     description:
       "Get in touch with SGTBS Aviation for OEM aircraft spares, aviation procurement, and logistics support in India. Our Delhi team provides fast response and reliable service.",
