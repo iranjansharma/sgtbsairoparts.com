@@ -82,12 +82,15 @@ export default function ContactSection(): React.ReactElement {
         <p className="mt-3 text-base sm:text-lg">
           For Aircraft Parts Queries North Zone India <br />
           ( Punjab I Delhi I UP I Rajsthan I Himachal I Uttarakhand ) <br />
-          I Mr. Rajesh Kumar Assistant General Manager (AGM)  <br />
-          <Link className="font-medium text-[#febd59]" href="tel:+919953005580">
-            +91 9953-005-580
+          I Mr. Vikas Sharma  Assistant General Manager (AGM)  <br />
+          <Link className="font-medium text-[#febd59]" href="tel:+919560748636">
+            +91 9560-748-636
+          </Link>
+          <Link className="font-medium text-[#febd59]" href="mailto:sgtbsairoparts@gmail.com">
+            sgtbsairoparts@gmail.com
           </Link>
         </p>
-        <p className="mt-3 text-base sm:text-lg">
+        {/* <p className="mt-3 text-base sm:text-lg">
           For Aircraft Parts Queries Center Zone India <br />
           (Guja rat I Madhya Pradesh I Chhattisgarh ) <br />
           Mr PushRaj Singh Business Development Manager 
@@ -95,7 +98,7 @@ export default function ContactSection(): React.ReactElement {
           <Link className="font-medium text-[#febd59]" href="tel:+917000535422">
             +91 7000-535-422
           </Link>
-        </p>
+        </p> */}
         {/* <p className="mt-3 text-base sm:text-lg">
           3. Technical and engineering support
         </p>
