@@ -85,7 +85,8 @@ export default function ContactSection(): React.ReactElement {
           I Mr. Vikas Sharma  Assistant General Manager (AGM)  <br />
           <Link className="font-medium text-[#febd59]" href="tel:+919560748636">
             +91 9560-748-636
-          </Link></br>
+          </Link>
+          <br/>
           <Link className="font-medium text-[#febd59]" href="mailto:sgtbsairoparts@gmail.com">
             sgtbsairoparts@gmail.com
           </Link>
