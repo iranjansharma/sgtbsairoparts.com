@@ -151,8 +151,8 @@ export default function ContactSection(): React.ReactElement {
                 href="https://map.google.com"
                 target="_blank"
               >
-                314, Vardhmaan Crown Mall, Sector 19, <br />
-                Dwarka, New Delhi
+                Basement, 9/126, Malviya Nagar Road, Malviya Nagar,
+New Delhi, South Delhi, Delhi, 110017
               </Link>
             </div>
             <div>
@@ -165,9 +165,8 @@ export default function ContactSection(): React.ReactElement {
               </p>
               <Link
                 className="font-medium text-primary"
-                href="tel:+919953005580"
-              >
-                +91 9953-005-580
+                href="tel:+919560748636">
+            +91 9560-748-636
               </Link>
             </div>
           </div>
