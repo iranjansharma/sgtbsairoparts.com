@@ -31,7 +31,7 @@ export default function ContactSection(): React.ReactElement {
   const [error, setError] = useState("");
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
@@ -82,12 +82,15 @@ export default function ContactSection(): React.ReactElement {
         <p className="mt-3 text-base sm:text-lg">
           For Aircraft Parts Queries North Zone India <br />
           ( Punjab I Delhi I UP I Rajsthan I Himachal I Uttarakhand ) <br />
-          I Mr. Vikas Sharma  Assistant General Manager (AGM)  <br />
-          <Link className="font-medium text-[#febd59]" href="tel:+919560748636">
-            +91 9560-748-636
+          I Mr. Vikas Sharma Assistant General Manager (AGM)  <br />
+          <Link className="font-medium text-[#febd59]" href="tel:+919891585781">
+            +91-989-158-5781
           </Link>
-          <br/>
-          <Link className="font-medium text-[#febd59]" href="mailto:sgtbsairoparts@gmail.com">
+          <br />
+          <Link
+            className="font-medium text-[#febd59]"
+            href="mailto:sgtbsairoparts@gmail.com"
+          >
             sgtbsairoparts@gmail.com
           </Link>
         </p>
@@ -133,9 +136,9 @@ export default function ContactSection(): React.ReactElement {
               </p>
               <Link
                 className="font-medium text-primary"
-                href="https://wa.me/919560748636"
+                href="https://wa.me/919891585781"
               >
-                +91-9560748636
+                +91-9891585781
               </Link>
             </div>
             <div>
@@ -151,8 +154,8 @@ export default function ContactSection(): React.ReactElement {
                 href="https://map.google.com"
                 target="_blank"
               >
-                Basement, 9/126, Malviya Nagar Road, Malviya Nagar,
-New Delhi, South Delhi, Delhi, 110017
+                Basement, 9/126, Malviya Nagar Road, Malviya Nagar, New Delhi,
+                South Delhi, Delhi, 110017
               </Link>
             </div>
             <div>
@@ -165,8 +168,9 @@ New Delhi, South Delhi, Delhi, 110017
               </p>
               <Link
                 className="font-medium text-primary"
-                href="tel:+919560748636">
-            +91 9560-748-636
+                href="tel:+919891585781"
+              >
+                +91-989-158-5781
               </Link>
             </div>
           </div>
